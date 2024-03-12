@@ -1,13 +1,39 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Base                                                 */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* UTILITY CLASSES */
+.flex {
+  display: flex;
+}
 
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+/* BASIC STYLING */
 :root {
-  --app-background: #fff;
+  --black: #000;
+  --blue: #14213D;
+  --orange: #FCA311;
+  --light-gray: #E5E5E5;
+  --white: #FFF;
 }
 
 body {
-  background-color: var(--app-background);
+  background-color: var(--white);
   font-family: 'Noto Sans', 'Open Sans', arial, sans-serif;
 }
 
@@ -16,7 +42,55 @@ body {
   margin-inline: auto;
 }
 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Landing Page                                         */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.landing-page {
+  background: #fff url(../media/landing-page-bg.webp) center / cover no-repeat;
+  height: 100svh;
+}
+
+header {
+  height: 60px;
+}
+
+header nav, header p, header h1 {
+  line-height: 60px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+
+header nav, header p {
+  font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.25s ease-in-out;
+}
+
+header nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Component                                            */
+/*  Products                                             */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  About                                                */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Contact                                              */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Footer                                               */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
