@@ -94,3 +94,12 @@ header nav ul li a {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Footer                                               */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+footer {
+  height: 70px;
+  background-color: var(--blue);
+}
+
+footer p{
+  line-height: 70px;
+  color: var(--light-gray);
+}
