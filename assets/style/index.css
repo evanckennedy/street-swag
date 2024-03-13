@@ -316,8 +316,16 @@ footer {
   background-color: var(--blue);
 }
 
+.social-media-wrapper i {
+  font-size: 22px;
+  color: var(--light-gray);
+  line-height: 70px;
+  transition: color 0.25s ease-in-out;
+}
+
 footer p{
   line-height: 70px;
+  font-weight: 600;
   color: var(--light-gray);
 }
 
