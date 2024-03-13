@@ -27,7 +27,7 @@
 :root {
   --black: #000;
   --blue: #14213D;
-  --orange: #FCA311;
+  --orange: #FA6607;
   --light-gray: #E5E5E5;
   --white: #FFF;
 }
@@ -91,11 +91,27 @@ header nav ul li a {
 /*  Contact                                              */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+/* Heading Text */
+
+.section-heading {
+  color: #000;
+  font-size: 24px;
+  margin: 20px;
+}
+
+/* Required fields text */
+
+.required-fields {
+  color: #000;
+  font-size: 12px;
+  font-weight: 200;
+  margin: 10px 30px;
+}
+
 .form-container {
   background-color: var(--white);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Form Inputs */
@@ -125,7 +141,7 @@ textarea {
 
 /* Form Button */
 button[type="submit"] {
-  background-color: var(--blue);
+  background-color: #FA6607;
   color: var(--white);
   border: none;
   padding: 10px 20px;
@@ -135,7 +151,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0a1626;
+  background-color: #e35c05;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
