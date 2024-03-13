@@ -30,7 +30,7 @@
              </ul>
             </nav>
           </div>
-          <button class="hero-content">Login</button>
+          <button class="open-login-modal hero-content">Login</button>
         </header>
         <div class="landing-page-container flex">
           <section class="landing-page-content hero-content">
@@ -49,6 +49,13 @@
       </div>  
     </div>
     <main>
+      <dialog class="modal">
+        <form method="dialog" class="login-form">
+          <input type="text" placeholder="username">
+          <input type="text" placeholder="email">
+          <button class="close-modal-button" type="submit">Login</button>
+        </form>
+      </dialog>
       <div class="container">
         <section id="product-section">
           <div class="product-grid-container">

@@ -142,6 +142,17 @@ header button {
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Login Dialog                                         */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.modal {
+  position: fixed; /* Position the dialog relative to the viewport */
+  top: 50%; /* Position the dialog halfway down the viewport */
+  left: 50%; /* Position the dialog halfway across the viewport */
+  transform: translate(-50%, -50%); /* Offset the dialog's position by half its own width and height */
+  /* Other styles as needed */
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Products                                             */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .product-grid-container {
