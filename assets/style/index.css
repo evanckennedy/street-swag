@@ -27,7 +27,7 @@
 :root {
   --black: #000;
   --blue: #14213D;
-  --orange: #FCA311;
+  --orange: #FA6607;
   --light-gray: #E5E5E5;
   --white: #FFF;
 }
@@ -102,7 +102,7 @@ header nav ul li a {
 header button {
   background-color: var(--orange);
   color: var(--white);
-  padding: 5px 12px;
+  padding: 8px 16px;
 }
 
 .landing-page-container {
@@ -193,7 +193,7 @@ header button {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .product-grid-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
 }
 
@@ -239,21 +239,16 @@ header button {
   font-weight: 600;
 }
 
-@media (max-width: 1000px) {
-  .product-grid-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
-@media (max-width: 630px) {
-  .product-grid-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 470px) {
+@media (max-width: 750px) {
   .product-grid-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .product-grid-container {
+    grid-template-columns: 1fr;
   }
 }
 
