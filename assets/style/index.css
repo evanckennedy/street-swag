@@ -144,6 +144,72 @@ header button {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Products                                             */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.product-grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+}
+
+.product-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-image-wrapper {
+  overflow: hidden;
+}
+
+.product-image {
+  transition: all 0.15s ease-in-out;
+  width: 100%;
+}
+
+.product-image:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.product-info-container {
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.product-seller {
+  text-transform: uppercase;
+  color: rgb(186, 186, 186); /* change this later */
+  font-size: 8px;
+}
+
+.product-title {
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .product-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 630px) {
+  .product-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 470px) {
+  .product-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  About                                                */
