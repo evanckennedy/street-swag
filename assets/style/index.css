@@ -354,7 +354,7 @@ footer p{
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @media (max-width: 768px) { 
   .landing-page::before {
-    background-color: rgba(255, 255, 255, 0.829); /* Less opaque on smaller screens */
+    background-color: rgba(255, 255, 255, 0.83); /* Less opaque on smaller screens */
   }
 
   .landing-page-content h2 {
