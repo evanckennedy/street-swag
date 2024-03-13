@@ -29,16 +29,39 @@
          </ul>
         </nav>
       </div>
-      <p>Login</p>
+      <button class="open-login-modal hero-content">Login</button>
     </header>
     <main>
       <div class="container">
+        <dialog class="modal">
+          <form method="dialog" class="login-form">
+            <label for="username-login">Username</label>
+            <input type="text" id="username-login">
+            <label for="password-login">Password</label>
+            <input type="text" id="password-login">
+            <div class="flex space-between login-row">
+              <button class="close-modal-button" type="submit">Login</button>
+              <p class="forgot-password-text">Forgot Password?</p>
+            </div>    
+          </form>
+        </dialog>
         <section class="single-product">
           <div class="row">
             <div class="col-lg-5 col-md-12 col-12">
-              <img src="assets/media/apply-here-model.webp">
+              <img src="assets/media/hat.webp">
             </div>
-            <div></div>
+            <div class="col-lg-6 col-md-12 col-12 space-between">
+              <h6>Tshirt</h6>
+              <h3>Womens Fashion tee</h3>
+              <h2>$45.00</h2>
+              <select class="size">
+                <option>Select size<option>
+                <option>S<option>
+                <option>M<option>
+                <option>L<option>
+                <option>XL<option>
+              </select>   
+            </div>
           </div>
         </section>
       </div>
@@ -46,7 +69,11 @@
     <footer>
       <div class="container">
         <div class="flex space-between">
-          <p>Lorem, ipsum.</p>
+          <div class="flex gap-20 social-media-wrapper">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+          </div>
           <p>&copy;2024 Street Swag</p>
         </div>
       </div>

@@ -1,0 +1,139 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Base                                                 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* UTILITY CLASSES */
+.flex {
+    display: flex;
+  }
+  
+.space-between {
+    justify-content: space-between;
+}
+  
+.center {
+    display: grid;
+    place-items: center;
+}
+  
+  .gap-20 {
+    gap: 20px;
+  }
+  
+  .gap-40 {
+    gap: 40px;
+  }
+  
+  /* BASIC STYLING */
+  :root {
+    --black: #000;
+    --blue: #14213D;
+    --orange: #FA6607;
+    --light-gray: #E5E5E5;
+    --white: #FFF;
+  }
+  
+  body {
+    background-color: var(--white);
+    font-family: 'Noto Sans', 'Open Sans', arial, sans-serif;
+  }
+  
+  .container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+  }
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /*  Product detail                                       */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+header button {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 8px 16px;
+}
+.single-product {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+.row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 650px;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+}
+
+.size {
+    margin-top: 3px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Login Dialog                                         */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.modal {
+    position: fixed; /* Position the dialog relative to the viewport */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 5px;
+    border: 1px solid rgb(0 0 0 / 0.15);
+  }
+  
+  .modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+  }
+  
+  .login-form {
+    width: 340px;
+    padding: 25px 30px;
+  }
+  
+  .login-form button {
+    padding: 5px 20px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+  .login-row {
+    align-items: center;
+  }
+  
+  .login-form label {
+    font-weight: 300;
+  }
+  
+  .login-form input {
+    margin-bottom: 17px;
+  }
+  
+  .forgot-password-text {
+    color: rgb(0 0 0 / 0.4);
+    text-decoration: underline;
+    font-size: 14px;
+  }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Footer                                               */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+footer {
+    height: 70px;
+    background-color: var(--blue);
+  }
+  
+  .social-media-wrapper i {
+    font-size: 22px;
+    color: var(--light-gray);
+    line-height: 70px;
+    transition: color 0.25s ease-in-out;
+  }
+  
+  footer p{
+    line-height: 70px;
+    font-weight: 600;
+    color: var(--light-gray);
+  }
