@@ -146,10 +146,46 @@ header button {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .modal {
   position: fixed; /* Position the dialog relative to the viewport */
-  top: 50%; /* Position the dialog halfway down the viewport */
-  left: 50%; /* Position the dialog halfway across the viewport */
-  transform: translate(-50%, -50%); /* Offset the dialog's position by half its own width and height */
-  /* Other styles as needed */
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border-radius: 5px;
+  border: 1px solid rgb(0 0 0 / 0.15);
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+.login-form {
+  width: 340px;
+  padding: 25px 30px;
+}
+
+.login-form button {
+  padding: 5px 20px;
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.login-row {
+  align-items: center;
+}
+
+.login-form label {
+  font-weight: 300;
+}
+
+.login-form input {
+  margin-bottom: 17px;
+}
+
+.forgot-password-text {
+  color: rgb(0 0 0 / 0.4);
+  text-decoration: underline;
+  font-size: 14px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -263,7 +299,7 @@ textarea {
 }
 
 /* Form Button */
-button[type="submit"] {
+#contact-section button[type="submit"] {
   background-color: var(--blue);
   color: var(--white);
   border: none;
@@ -273,7 +309,7 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
+#contact-section button[type="submit"]:hover {
   background-color: #0a1626;
 }
 

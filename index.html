@@ -49,14 +49,19 @@
       </div>  
     </div>
     <main>
-      <dialog class="modal">
-        <form method="dialog" class="login-form">
-          <input type="text" placeholder="username">
-          <input type="text" placeholder="email">
-          <button class="close-modal-button" type="submit">Login</button>
-        </form>
-      </dialog>
       <div class="container">
+        <dialog class="modal">
+          <form method="dialog" class="login-form">
+            <label for="username-login">Username</label>
+            <input type="text" id="username-login">
+            <label for="password-login">Password</label>
+            <input type="text" id="password-login">
+            <div class="flex space-between login-row">
+              <button class="close-modal-button" type="submit">Login</button>
+              <p class="forgot-password-text">Forgot Password?</p>
+            </div>    
+          </form>
+        </dialog>
         <section id="product-section">
           <div class="product-grid-container">
 
