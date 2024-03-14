@@ -30,6 +30,8 @@
   --orange: #FA6607;
   --light-gray: #E5E5E5;
   --white: #FFF;
+  --orange-hover: #D55A06;
+  --blue-hover: #27425A;
 }
 
 body {
@@ -41,6 +43,10 @@ body {
 .container {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
+}
+
+button {
+  transition: all 0.15s ease-in-out;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -108,6 +114,10 @@ header button {
   padding: 8px 16px;
 }
 
+header button:hover {
+  background-color: var(--orange-hover);
+}
+
 .landing-page-container {
   height: calc(100svh - 60px);
   align-items: center;
@@ -125,6 +135,10 @@ header button {
     padding: 13px 23px;
     background-color: var(--blue);
     color: var(--white);
+  }
+
+  button:hover {
+    background-color: var(--blue-hover);
   }
 
   div i {
@@ -177,6 +191,10 @@ header button {
   color: var(--white);
   font-weight: 600;
   border-radius: 5px;
+}
+
+.login-form button:hover {
+  background-color: var(--orange-hover);
 }
 
 .login-row {
@@ -355,7 +373,7 @@ textarea {
 
 /* Form Button */
 #contact-section button[type="submit"] {
-  background-color: var(--blue);
+  background-color: var(--orange);
   color: var(--white);
   border: none;
   padding: 10px 20px;
@@ -365,7 +383,7 @@ textarea {
 }
 
 #contact-section button[type="submit"]:hover {
-  background-color: #0a1626;
+  background-color: var(--orange-hover);
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
