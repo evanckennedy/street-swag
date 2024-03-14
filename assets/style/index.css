@@ -395,6 +395,7 @@ textarea {
 
 .form-section-right img {
   object-fit: cover;
+  border-radius: 10px;
 }
 
 #contact-section {
