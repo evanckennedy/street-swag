@@ -240,3 +240,22 @@ img {
   /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
   /*  Media Queries                                        */
   /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+  @media (max-width: 1080px) {
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+      display: inline;
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+      display: inline;
+    }
+  }
+
+ 
+
+  
