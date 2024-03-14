@@ -250,6 +250,11 @@ header button {
   gap: 3rem;
 }
 
+.product-grid-container a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Makes the link color the same as the surrounding text */
+}
+
 .product-container {
   justify-content: center;
   flex-direction: column;

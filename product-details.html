@@ -17,24 +17,38 @@
     <script src="./assets/script/app.js" type="module"></script>
   </head>
   <body>
-    <div class="landing-page">
-      <div class="container">
-        <header class="flex space-between">
-          <div class="flex gap-40">
-            <h1 class="hero-content">Street Swag</h1>
-            <nav>
-              <ul class="flex gap-20">
-                <li class="hero-content"><a href="#product-section">Products</a></li>
-                <li class="hero-content"><a href="#about-section">About</a></li>
-                <li class="hero-content"><a href="#contact-section">Contact</a></li>
-             </ul>
-            </nav>
-          </div>
-        </header>
-      </div>  
-    </div>
+
+    <div class="container">
+      <header class="flex space-between">
+        <div class="flex gap-40">
+          <h1 class="hero-content"><a href="./index.html">Street Swag</a></h1>
+          <nav>
+            <ul class="flex gap-20">
+              <li class="hero-content"><a href="#product-section">Products</a></li>
+              <li class="hero-content"><a href="#about-section">About</a></li>
+              <li class="hero-content"><a href="#contact-section">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <button class="open-login-modal hero-content">Login</button>
+      </header>
+    </div>  
     <main>
       <div class="container">
+        <dialog class="modal">
+          <form method="dialog" class="login-form">
+            <p class="login-title">Login</p>
+            <label for="username-login">Username</label>
+            <input type="text" id="username-login">
+            <label for="password-login">Password</label>
+            <input type="password" id="password-login">
+            <div class="flex space-between login-row">
+              <button class="close-modal-button" type="submit">Login</button>
+              <p class="forgot-password-text">Forgot Password?</p>
+            </div>    
+            <p class="call-to-sign-up">Don't have an account yet? <span>Sign Up</span></p>
+          </form>
+        </dialog>
         <section class="single-product">
             <div class="row">
               <div class="left">
