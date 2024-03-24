@@ -427,7 +427,6 @@ footer p{
   }
 }
 
-
 @media (max-width: 640px) {
   .column {
     flex: 0 0 100%;
