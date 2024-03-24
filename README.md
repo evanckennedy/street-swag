@@ -1,4 +1,4 @@
-## street-swag
+# Street Swag
 
 Welcome to Street Swag, your go-to destination for fresh apparel and trendy gear.
 
@@ -6,8 +6,7 @@ Welcome to Street Swag, your go-to destination for fresh apparel and trendy gear
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+4. [Contributors](#contributors)
 
 ## Introduction
 Street Swag is a modern web application that showcases the latest fashion trends and offers a seamless shopping experience. Developed by A team of students, this project aims to provide users with an easy-to-navigate platform to explore and purchase stylish clothing and accessories.
@@ -26,10 +25,7 @@ To explore Street Swag:
 3. Browse products and get in touch via the contact form.
 
 ## Contributors
-- Evan Kennedy
-- Saad Alddine
-- Jordan Webber
-- Mukkarama Akter
----
-
-&copy; 2024 Street Swag 
+- [Evan Kennedy](https://github.com/evanckennedy)
+- [Saad Alddine](https://github.com/MrAlameddine)
+- [Jordan Pelletier-Weber](https://github.com/jordanpweber)
+- [Mukkarama Akter](https://github.com/Mukarrama31)
