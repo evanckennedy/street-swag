@@ -427,6 +427,10 @@ footer p{
   .landing-page-content h2 {
     font-size: 48px;
   }
+
+  .landing-page {
+    background-position: -885px 40px;
+  }
 }
 
 @media (max-width: 640px) {
