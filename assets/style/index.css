@@ -235,12 +235,6 @@ header button:hover {
   font-weight: 600;
 }
 
-@media (max-width: 400px) {
-  .login-form {
-  width: 310px;
-}
-}
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Section Heading                                      */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -317,19 +311,6 @@ header button:hover {
   font-weight: 600;
 }
 
-
-@media (max-width: 750px) {
-  .product-grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 450px) {
-  .product-grid-container {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Contact                                              */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -402,19 +383,6 @@ textarea {
   margin-bottom: 80px;
 }
 
-/* 640px and down */
-@media (max-width: 640px) {
-  .column {
-    /* Minus 10px on each box accounts for 20px gap*/
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .form-section-right {
-    display: none;
-  }
-}
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Footer                                               */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -456,5 +424,37 @@ footer p{
 
   .landing-page-content h2 {
     font-size: 48px;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .form-section-right {
+    display: none;
+  }
+}
+
+/* Login Modal */
+@media (max-width: 400px) {
+  .login-form {
+  width: 310px;
+  }
+}
+
+/* Products */
+@media (max-width: 750px) {
+  .product-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .product-grid-container {
+    grid-template-columns: 1fr;
   }
 }

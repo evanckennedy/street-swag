@@ -1,61 +1,6 @@
-
-  /* BASIC STYLING */
-  :root {
-    --black: #000;
-    --blue: #14213D;
-    --orange: #FA6607;
-    --light-gray: #E5E5E5;
-    --white: #FFF;
-    --orange-hover: #D55A06;
-    --blue-hover: #27425A;
-  }
-  
-  body {
-    background-color: var(--white);
-    font-family: 'Noto Sans', 'Open Sans', arial, sans-serif;
-  }
-  
-  .container {
-    width: min(100% - 30px, 1080px);
-    margin-inline: auto;
-  }
-  
-  .hero-content {
-    z-index: 9999;
-  }
-  header {
-    height: 60px;
-    align-items: center;
-  }
-  
-  header nav, header p, header h1 {
-    line-height: 60px;
-  }
-  
-  h1, h1 a {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 56px;
-    text-transform: uppercase;
-    color: var(--black);
-    text-decoration: none;
-  }
-  
-  header nav, header p {
-    font-size: 18px;
-    transition: color 0.25s ease-in-out;
-  }
-  
-  header nav ul li a {
-    list-style: none;
-    text-decoration: none;
-    color: var(--black);
-    cursor: pointer;
-  }
-  
-  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-  /*  Product detail                                       */
-  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Product detail                                       */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 main {
   margin-top: 80px;
 }
@@ -80,7 +25,6 @@ main {
 /* 640px and down */
 @media (max-width: 640px) {
   .column {
-    /* Minus 10px on each box accounts for 20px gap*/
     flex: 0 0 100%;
     max-width: 100%;
   }
