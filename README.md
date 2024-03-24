@@ -23,7 +23,7 @@ Street Swag is a modern web application that showcases the latest fashion trends
 To explore Street Swag:
 1. Simply open the [Street Swag website](https://evanckennedy.github.io/street-swag/) in your web browser.
 2. Navigate through the different sections using the menu options.
-3. Browse products, learn more about the brand in the "About Us" section, and get in touch via the contact form.
+3. Browse products and get in touch via the contact form.
 
 ## Contributors
 - Evan Kennedy
