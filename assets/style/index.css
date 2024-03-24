@@ -296,7 +296,7 @@ header button:hover {
 
 .product-seller {
   text-transform: uppercase;
-  color: rgb(186, 186, 186); /* change this later */
+  color: rgb(186, 186, 186);
   font-size: 14px;
   font-weight: 600;
 }
