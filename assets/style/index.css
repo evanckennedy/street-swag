@@ -297,18 +297,18 @@ header button:hover {
 .product-seller {
   text-transform: uppercase;
   color: rgb(186, 186, 186); /* change this later */
-  font-size: 8px;
+  font-size: 14px;
 }
 
 .product-title {
-  font-size: 12px;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  font-size: 22px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   font-weight: 500;
 }
 
 .product-price {
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 600;
 }
 
